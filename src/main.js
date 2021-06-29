@@ -1,8 +1,8 @@
 import data from './data/lol/lol.js';
 
-import {dropdownTags} from './data.js';
-import {dropdownPower} from './data.js';
-import {dropdownDifficulty} from './data.js';
+import {dropdownTags, dropdownPower, dropdownDifficulty} from './data.js';
+
+import { filtrarPorRoles } from './hero.js';
 
 
 const container = document.getElementById('container');
@@ -12,20 +12,13 @@ const list = Object.values(data.data);
 function limpiarLista() {
     while(container.hasChildNodes())
         container.removeChild(container.firstChild);
-} 
-
-function filtrarPorRoles(event) {
-    var filterTag = event.currentTarget.dataset.tags
-    const tagsList = list.filter(elementoArray => elementoArray.tags.includes(filterTag));
-    limpiarLista();
-    dibujarHeroes(tagsList)
 }
 
-function filtrarPorPoder (event) {
+function filtrarPorPoder(event) {
     var filterPower = event.currentTarget.dataset.power
     const powerList = list.filter(elementoArray => elementoArray.partype == filterPower);
     limpiarLista();
-    dibujarHeroes(powerList)  
+    dibujarHeroes(powerList)
 }
 
 function filtrarPorDifficultad (event) {
@@ -90,8 +83,13 @@ const buttonTags = document.getElementById("buttonT");
 buttonTags.addEventListener("click", ()=>{
     dropdownTags()
 });
+
 document.querySelectorAll(".rol").forEach(function(element) {
-    element.addEventListener("click", filtrarPorRoles)
+    element.addEventListener("click", (event) => {
+        let listaFiltrada = filtrarPorRoles(event.currentTarget.dataset.tags, list);
+        limpiarLista();
+        dibujarHeroes(listaFiltrada);
+    })
 }); 
 
 const buttonPower = document.getElementById("buttonP");
