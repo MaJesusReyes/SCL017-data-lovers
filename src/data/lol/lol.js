@@ -8,18 +8,18 @@ export default {
       id: "Aatrox",
       key: "266",
       name: "Aatrox",
-      title: "the Darkin Blade",
+      title: "LA ESPADA DE LOS OSCUROS",
       img:
         "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250",
       splash:
         "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg",
       blurb:
-        "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's ...",
+        "Aatrox y sus hermanos, otrora respetados defensores de Shurima contra el Vacío, acabarían convirtiéndose en una amenaza aún mayor para Runaterra y solo conocieron la derrota ante el uso astuto de hechizos mortales. No obstante, tras siglos de reclusión, Aatrox fue el primero en recuperar su libertad y se dedicó a corromper y transformar a cualquier necio que intentase empuñar el arma mágica que contenía su esencia. Ahora, envuelto en carne y huesos que no le pertenecen y que ha transformado en una horrenda aproximación de su antiguo aspecto, recorre Runaterra en busca de la apocalíptica venganza que tanto anhela.",
       info: {
         attack: 8,
         defense: 4,
         magic: 3,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Aatrox.png",
@@ -31,7 +31,7 @@ export default {
         h: 48
       },
       tags: ["Fighter", "Tank"],
-      partype: "BloodWell",
+      partype: "None",
       stats: {
         hp: 537.8,
         hpperlevel: 85,
@@ -71,7 +71,7 @@ export default {
         attack: 3,
         defense: 4,
         magic: 8,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Ahri.png",
@@ -123,7 +123,7 @@ export default {
         attack: 5,
         defense: 3,
         magic: 8,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Akali.png",
@@ -175,7 +175,7 @@ export default {
         attack: 6,
         defense: 9,
         magic: 5,
-        difficulty: 7
+        difficulty: 1
       },
       image: {
         full: "Alistar.png",
@@ -227,7 +227,7 @@ export default {
         attack: 2,
         defense: 6,
         magic: 8,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "Amumu.png",
@@ -279,7 +279,7 @@ export default {
         attack: 1,
         defense: 4,
         magic: 10,
-        difficulty: 10
+        difficulty: 3
       },
       image: {
         full: "Anivia.png",
@@ -331,7 +331,7 @@ export default {
         attack: 2,
         defense: 3,
         magic: 10,
-        difficulty: 6
+        difficulty: 1
       },
       image: {
         full: "Annie.png",
@@ -383,7 +383,7 @@ export default {
         attack: 7,
         defense: 3,
         magic: 2,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Ashe.png",
@@ -435,7 +435,7 @@ export default {
         attack: 2,
         defense: 3,
         magic: 8,
-        difficulty: 7
+        difficulty: 3
       },
       image: {
         full: "AurelionSol.png",
@@ -446,7 +446,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Fighter"],
+      tags: ["Mage"],
       partype: "MP",
       stats: {
         hp: 550,
@@ -487,7 +487,7 @@ export default {
         attack: 6,
         defense: 3,
         magic: 8,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Azir.png",
@@ -539,7 +539,7 @@ export default {
         attack: 4,
         defense: 4,
         magic: 5,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Bard.png",
@@ -591,7 +591,7 @@ export default {
         attack: 4,
         defense: 8,
         magic: 5,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Blitzcrank.png",
@@ -643,7 +643,7 @@ export default {
         attack: 2,
         defense: 2,
         magic: 9,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Brand.png",
@@ -695,7 +695,7 @@ export default {
         attack: 3,
         defense: 9,
         magic: 4,
-        difficulty: 3
+        difficulty: 2
       },
       image: {
         full: "Braum.png",
@@ -747,7 +747,7 @@ export default {
         attack: 8,
         defense: 2,
         magic: 2,
-        difficulty: 6
+        difficulty: 1
       },
       image: {
         full: "Caitlyn.png",
@@ -799,7 +799,7 @@ export default {
         attack: 8,
         defense: 6,
         magic: 3,
-        difficulty: 4
+        difficulty: 3
       },
       image: {
         full: "Camille.png",
@@ -851,7 +851,7 @@ export default {
         attack: 2,
         defense: 3,
         magic: 9,
-        difficulty: 10
+        difficulty: 3
       },
       image: {
         full: "Cassiopeia.png",
@@ -903,7 +903,7 @@ export default {
         attack: 3,
         defense: 7,
         magic: 7,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Chogath.png",
@@ -955,7 +955,7 @@ export default {
         attack: 8,
         defense: 3,
         magic: 6,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Corki.png",
@@ -1059,7 +1059,7 @@ export default {
         attack: 7,
         defense: 6,
         magic: 8,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Diana.png",
@@ -1111,7 +1111,7 @@ export default {
         attack: 9,
         defense: 3,
         magic: 1,
-        difficulty: 8
+        difficulty: 3
       },
       image: {
         full: "Draven.png",
@@ -1163,7 +1163,7 @@ export default {
         attack: 5,
         defense: 7,
         magic: 6,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "DrMundo.png",
@@ -1215,7 +1215,7 @@ export default {
         attack: 5,
         defense: 3,
         magic: 7,
-        difficulty: 8
+        difficulty: 3
       },
       image: {
         full: "Ekko.png",
@@ -1267,7 +1267,7 @@ export default {
         attack: 6,
         defense: 5,
         magic: 7,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Elise.png",
@@ -1319,7 +1319,7 @@ export default {
         attack: 4,
         defense: 2,
         magic: 7,
-        difficulty: 10
+        difficulty: 2
       },
       image: {
         full: "Evelynn.png",
@@ -1371,7 +1371,7 @@ export default {
         attack: 7,
         defense: 2,
         magic: 6,
-        difficulty: 7
+        difficulty: 1
       },
       image: {
         full: "Ezreal.png",
@@ -1423,7 +1423,7 @@ export default {
         attack: 2,
         defense: 3,
         magic: 9,
-        difficulty: 9
+        difficulty: 2
       },
       image: {
         full: "FiddleSticks.png",
@@ -1527,7 +1527,7 @@ export default {
         attack: 6,
         defense: 4,
         magic: 7,
-        difficulty: 6
+        difficulty: 3
       },
       image: {
         full: "Fizz.png",
@@ -1579,7 +1579,7 @@ export default {
         attack: 3,
         defense: 7,
         magic: 6,
-        difficulty: 3
+        difficulty: 2
       },
       image: {
         full: "Galio.png",
@@ -1631,7 +1631,7 @@ export default {
         attack: 7,
         defense: 6,
         magic: 4,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Gangplank.png",
@@ -1683,7 +1683,7 @@ export default {
         attack: 7,
         defense: 7,
         magic: 1,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Garen.png",
@@ -1735,7 +1735,7 @@ export default {
         attack: 6,
         defense: 5,
         magic: 5,
-        difficulty: 8
+        difficulty: 3
       },
       image: {
         full: "Gnar.png",
@@ -1747,7 +1747,7 @@ export default {
         h: 48
       },
       tags: ["Fighter", "Tank"],
-      partype: "Gnarfury",
+      partype: "Rage",
       stats: {
         hp: 540,
         hpperlevel: 65,
@@ -1787,7 +1787,7 @@ export default {
         attack: 4,
         defense: 7,
         magic: 6,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Gragas.png",
@@ -1839,7 +1839,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 3,
-        difficulty: 3
+        difficulty: 2
       },
       image: {
         full: "Graves.png",
@@ -1892,7 +1892,7 @@ export default {
         attack: 8,
         defense: 6,
         magic: 4,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Hecarim.png",
@@ -1944,7 +1944,7 @@ export default {
         attack: 2,
         defense: 6,
         magic: 8,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Heimerdinger.png",
@@ -1996,7 +1996,7 @@ export default {
         attack: 8,
         defense: 6,
         magic: 3,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Illaoi.png",
@@ -2048,7 +2048,7 @@ export default {
         attack: 7,
         defense: 4,
         magic: 5,
-        difficulty: 5
+        difficulty: 3
       },
       image: {
         full: "Irelia.png",
@@ -2100,7 +2100,7 @@ export default {
         attack: 3,
         defense: 5,
         magic: 7,
-        difficulty: 7
+        difficulty: 3
       },
       image: {
         full: "Ivern.png",
@@ -2152,7 +2152,7 @@ export default {
         attack: 3,
         defense: 5,
         magic: 7,
-        difficulty: 7
+        difficulty: 1
       },
       image: {
         full: "Janna.png",
@@ -2204,7 +2204,7 @@ export default {
         attack: 6,
         defense: 8,
         magic: 3,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "JarvanIV.png",
@@ -2256,7 +2256,7 @@ export default {
         attack: 7,
         defense: 5,
         magic: 7,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Jax.png",
@@ -2308,7 +2308,7 @@ export default {
         attack: 8,
         defense: 4,
         magic: 3,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Jayce.png",
@@ -2360,7 +2360,7 @@ export default {
         attack: 10,
         defense: 2,
         magic: 6,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Jhin.png",
@@ -2371,7 +2371,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Marksman", "Assassin"],
+      tags: ["Marksman"],
       partype: "MP",
       stats: {
         hp: 540,
@@ -2412,7 +2412,7 @@ export default {
         attack: 9,
         defense: 2,
         magic: 4,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Jinx.png",
@@ -2464,7 +2464,7 @@ export default {
         attack: 8,
         defense: 2,
         magic: 4,
-        difficulty: 7
+        difficulty: 3
       },
       image: {
         full: "Kalista.png",
@@ -2516,7 +2516,7 @@ export default {
         attack: 1,
         defense: 7,
         magic: 8,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Karma.png",
@@ -2568,7 +2568,7 @@ export default {
         attack: 2,
         defense: 2,
         magic: 10,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Karthus.png",
@@ -2620,7 +2620,7 @@ export default {
         attack: 3,
         defense: 5,
         magic: 8,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Kassadin.png",
@@ -2672,7 +2672,7 @@ export default {
         attack: 4,
         defense: 3,
         magic: 9,
-        difficulty: 8
+        difficulty: 3
       },
       image: {
         full: "Katarina.png",
@@ -2724,7 +2724,7 @@ export default {
         attack: 6,
         defense: 6,
         magic: 7,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Kayle.png",
@@ -2776,7 +2776,7 @@ export default {
         attack: 6,
         defense: 4,
         magic: 7,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Kennen.png",
@@ -2828,7 +2828,7 @@ export default {
         attack: 9,
         defense: 4,
         magic: 3,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Khazix.png",
@@ -2839,7 +2839,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Assassin", "Fighter"],
+      tags: ["Assassin"],
       partype: "MP",
       stats: {
         hp: 572.8,
@@ -2880,7 +2880,7 @@ export default {
         attack: 8,
         defense: 2,
         magic: 2,
-        difficulty: 4
+        difficulty: 3
       },
       image: {
         full: "Kindred.png",
@@ -2932,7 +2932,7 @@ export default {
         attack: 8,
         defense: 2,
         magic: 2,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Kled.png",
@@ -2944,7 +2944,7 @@ export default {
         h: 48
       },
       tags: ["Fighter", "Tank"],
-      partype: "Gnarfury",
+      partype: "Special",
       stats: {
         hp: 340,
         hpperlevel: 70,
@@ -2984,7 +2984,7 @@ export default {
         attack: 8,
         defense: 2,
         magic: 5,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "KogMaw.png",
@@ -3036,7 +3036,7 @@ export default {
         attack: 1,
         defense: 4,
         magic: 10,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Leblanc.png",
@@ -3088,7 +3088,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 3,
-        difficulty: 6
+        difficulty: 3
       },
       image: {
         full: "LeeSin.png",
@@ -3140,7 +3140,7 @@ export default {
         attack: 4,
         defense: 8,
         magic: 3,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Leona.png",
@@ -3192,7 +3192,7 @@ export default {
         attack: 2,
         defense: 5,
         magic: 8,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Lissandra.png",
@@ -3244,7 +3244,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 3,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Lucian.png",
@@ -3296,7 +3296,7 @@ export default {
         attack: 4,
         defense: 5,
         magic: 7,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Lulu.png",
@@ -3348,7 +3348,7 @@ export default {
         attack: 2,
         defense: 4,
         magic: 9,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Lux.png",
@@ -3400,7 +3400,7 @@ export default {
         attack: 5,
         defense: 9,
         magic: 7,
-        difficulty: 2
+        difficulty: 1
       },
       image: {
         full: "Malphite.png",
@@ -3452,7 +3452,7 @@ export default {
         attack: 2,
         defense: 2,
         magic: 9,
-        difficulty: 6
+        difficulty: 1
       },
       image: {
         full: "Malzahar.png",
@@ -3504,7 +3504,7 @@ export default {
         attack: 3,
         defense: 8,
         magic: 6,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "Maokai.png",
@@ -3556,7 +3556,7 @@ export default {
         attack: 10,
         defense: 4,
         magic: 2,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "MasterYi.png",
@@ -3660,7 +3660,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 2,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "MonkeyKing.png",
@@ -3712,7 +3712,7 @@ export default {
         attack: 4,
         defense: 6,
         magic: 7,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Mordekaiser.png",
@@ -3816,7 +3816,7 @@ export default {
         attack: 4,
         defense: 3,
         magic: 7,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Nami.png",
@@ -3868,7 +3868,7 @@ export default {
         attack: 7,
         defense: 5,
         magic: 6,
-        difficulty: 6
+        difficulty: 1
       },
       image: {
         full: "Nasus.png",
@@ -3920,7 +3920,7 @@ export default {
         attack: 4,
         defense: 6,
         magic: 6,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Nautilus.png",
@@ -3972,7 +3972,7 @@ export default {
         attack: 5,
         defense: 4,
         magic: 7,
-        difficulty: 8
+        difficulty: 3
       },
       image: {
         full: "Nidalee.png",
@@ -3983,7 +3983,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Assassin", "Fighter"],
+      tags: ["Assassin", "Mage"],
       partype: "MP",
       stats: {
         hp: 511.2,
@@ -4024,7 +4024,7 @@ export default {
         attack: 9,
         defense: 5,
         magic: 2,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Nocturne.png",
@@ -4076,7 +4076,7 @@ export default {
         attack: 4,
         defense: 6,
         magic: 7,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Nunu.png",
@@ -4087,7 +4087,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Support", "Fighter"],
+      tags: ["Tank", "Fighter"],
       partype: "MP",
       stats: {
         hp: 598.28,
@@ -4128,7 +4128,7 @@ export default {
         attack: 9,
         defense: 5,
         magic: 3,
-        difficulty: 3
+        difficulty: 2
       },
       image: {
         full: "Olaf.png",
@@ -4180,7 +4180,7 @@ export default {
         attack: 4,
         defense: 3,
         magic: 9,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Orianna.png",
@@ -4232,7 +4232,7 @@ export default {
         attack: 9,
         defense: 4,
         magic: 3,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Pantheon.png",
@@ -4284,7 +4284,7 @@ export default {
         attack: 6,
         defense: 7,
         magic: 2,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Poppy.png",
@@ -4336,7 +4336,7 @@ export default {
         attack: 9,
         defense: 4,
         magic: 2,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Quinn.png",
@@ -4347,7 +4347,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Marksman", "Fighter"],
+      tags: ["Marksman", "Assassin"],
       partype: "MP",
       stats: {
         hp: 532.8,
@@ -4388,7 +4388,7 @@ export default {
         attack: 4,
         defense: 10,
         magic: 5,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Rammus.png",
@@ -4440,7 +4440,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 2,
-        difficulty: 3
+        difficulty: 2
       },
       image: {
         full: "RekSai.png",
@@ -4452,7 +4452,7 @@ export default {
         h: 48
       },
       tags: ["Fighter"],
-      partype: "Battlefury",
+      partype: "Rage",
       stats: {
         hp: 570,
         hpperlevel: 90,
@@ -4492,7 +4492,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 2,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "Renekton.png",
@@ -4544,7 +4544,7 @@ export default {
         attack: 7,
         defense: 4,
         magic: 2,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Rengar.png",
@@ -4556,7 +4556,7 @@ export default {
         h: 48
       },
       tags: ["Assassin", "Fighter"],
-      partype: "Ferocity",
+      partype: "Special",
       stats: {
         hp: 586.2,
         hpperlevel: 90,
@@ -4596,7 +4596,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 1,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Riven.png",
@@ -4648,7 +4648,7 @@ export default {
         attack: 3,
         defense: 6,
         magic: 8,
-        difficulty: 10
+        difficulty: 3
       },
       image: {
         full: "Rumble.png",
@@ -4660,7 +4660,7 @@ export default {
         h: 48
       },
       tags: ["Fighter", "Mage"],
-      partype: "Heat",
+      partype: "Special",
       stats: {
         hp: 584.4,
         hpperlevel: 80,
@@ -4700,7 +4700,7 @@ export default {
         attack: 2,
         defense: 2,
         magic: 10,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Ryze.png",
@@ -4752,7 +4752,7 @@ export default {
         attack: 5,
         defense: 7,
         magic: 6,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Sejuani.png",
@@ -4804,7 +4804,7 @@ export default {
         attack: 8,
         defense: 4,
         magic: 6,
-        difficulty: 9
+        difficulty: 2
       },
       image: {
         full: "Shaco.png",
@@ -4856,7 +4856,7 @@ export default {
         attack: 3,
         defense: 9,
         magic: 3,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Shen.png",
@@ -4867,7 +4867,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Tank", "Melee"],
+      tags: ["Tank"],
       partype: "Energy",
       stats: {
         hp: 540,
@@ -4908,7 +4908,7 @@ export default {
         attack: 8,
         defense: 6,
         magic: 3,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Shyvana.png",
@@ -4920,7 +4920,7 @@ export default {
         h: 48
       },
       tags: ["Fighter", "Tank"],
-      partype: "Dragonfury",
+      partype: "Rage",
       stats: {
         hp: 595,
         hpperlevel: 95,
@@ -4960,7 +4960,7 @@ export default {
         attack: 4,
         defense: 8,
         magic: 7,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Singed.png",
@@ -5012,7 +5012,7 @@ export default {
         attack: 5,
         defense: 9,
         magic: 3,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Sion.png",
@@ -5064,7 +5064,7 @@ export default {
         attack: 9,
         defense: 3,
         magic: 1,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Sivir.png",
@@ -5116,7 +5116,7 @@ export default {
         attack: 7,
         defense: 6,
         magic: 5,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Skarner.png",
@@ -5168,7 +5168,7 @@ export default {
         attack: 5,
         defense: 2,
         magic: 8,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Sona.png",
@@ -5220,7 +5220,7 @@ export default {
         attack: 2,
         defense: 5,
         magic: 7,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "Soraka.png",
@@ -5272,7 +5272,7 @@ export default {
         attack: 2,
         defense: 6,
         magic: 9,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Swain.png",
@@ -5324,7 +5324,7 @@ export default {
         attack: 2,
         defense: 3,
         magic: 9,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Syndra.png",
@@ -5376,7 +5376,7 @@ export default {
         attack: 3,
         defense: 9,
         magic: 6,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "TahmKench.png",
@@ -5428,7 +5428,7 @@ export default {
         attack: 1,
         defense: 7,
         magic: 8,
-        difficulty: 5
+        difficulty: 2
       },
       image: {
         full: "Taliyah.png",
@@ -5480,7 +5480,7 @@ export default {
         attack: 9,
         defense: 3,
         magic: 1,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Talon.png",
@@ -5491,7 +5491,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Assassin", "Fighter"],
+      tags: ["Assassin"],
       partype: "MP",
       stats: {
         hp: 583,
@@ -5532,7 +5532,7 @@ export default {
         attack: 4,
         defense: 8,
         magic: 5,
-        difficulty: 3
+        difficulty: 2
       },
       image: {
         full: "Taric.png",
@@ -5584,7 +5584,7 @@ export default {
         attack: 5,
         defense: 3,
         magic: 7,
-        difficulty: 6
+        difficulty: 1
       },
       image: {
         full: "Teemo.png",
@@ -5636,7 +5636,7 @@ export default {
         attack: 5,
         defense: 6,
         magic: 6,
-        difficulty: 7
+        difficulty: 3
       },
       image: {
         full: "Thresh.png",
@@ -5688,7 +5688,7 @@ export default {
         attack: 9,
         defense: 3,
         magic: 5,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Tristana.png",
@@ -5740,7 +5740,7 @@ export default {
         attack: 7,
         defense: 6,
         magic: 2,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Trundle.png",
@@ -5792,7 +5792,7 @@ export default {
         attack: 10,
         defense: 5,
         magic: 2,
-        difficulty: 5
+        difficulty: 1
       },
       image: {
         full: "Tryndamere.png",
@@ -5804,7 +5804,7 @@ export default {
         h: 48
       },
       tags: ["Fighter", "Assassin"],
-      partype: "Battlefury",
+      partype: "Rage",
       stats: {
         hp: 625.64,
         hpperlevel: 98,
@@ -5844,7 +5844,7 @@ export default {
         attack: 6,
         defense: 2,
         magic: 6,
-        difficulty: 9
+        difficulty: 2
       },
       image: {
         full: "TwistedFate.png",
@@ -5896,7 +5896,7 @@ export default {
         attack: 9,
         defense: 2,
         magic: 3,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Twitch.png",
@@ -5948,7 +5948,7 @@ export default {
         attack: 8,
         defense: 7,
         magic: 4,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Udyr.png",
@@ -6000,7 +6000,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 3,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Urgot.png",
@@ -6011,7 +6011,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Marksman", "Fighter"],
+      tags: ["Tank", "Fighter"],
       partype: "MP",
       stats: {
         hp: 586.52,
@@ -6104,7 +6104,7 @@ export default {
         attack: 10,
         defense: 1,
         magic: 1,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Vayne.png",
@@ -6156,7 +6156,7 @@ export default {
         attack: 2,
         defense: 2,
         magic: 10,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Veigar.png",
@@ -6208,7 +6208,7 @@ export default {
         attack: 2,
         defense: 2,
         magic: 10,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Velkoz.png",
@@ -6259,7 +6259,7 @@ export default {
         attack: 8,
         defense: 5,
         magic: 3,
-        difficulty: 4
+        difficulty: 1
       },
       image: {
         full: "Vi.png",
@@ -6311,7 +6311,7 @@ export default {
         attack: 2,
         defense: 4,
         magic: 10,
-        difficulty: 9
+        difficulty: 3
       },
       image: {
         full: "Viktor.png",
@@ -6363,7 +6363,7 @@ export default {
         attack: 2,
         defense: 6,
         magic: 8,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Vladimir.png",
@@ -6374,8 +6374,8 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Tank"],
-      partype: "Gnarfury",
+      tags: ["Mage"],
+      partype: "None",
       stats: {
         hp: 525,
         hpperlevel: 84,
@@ -6415,7 +6415,7 @@ export default {
         attack: 7,
         defense: 7,
         magic: 4,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "Volibear.png",
@@ -6467,7 +6467,7 @@ export default {
         attack: 7,
         defense: 4,
         magic: 4,
-        difficulty: 3
+        difficulty: 1
       },
       image: {
         full: "Warwick.png",
@@ -6519,7 +6519,7 @@ export default {
         attack: 1,
         defense: 3,
         magic: 10,
-        difficulty: 8
+        difficulty: 2
       },
       image: {
         full: "Xerath.png",
@@ -6530,7 +6530,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Mage", "Assassin"],
+      tags: ["Mage"],
       partype: "MP",
       stats: {
         hp: 514.4,
@@ -6571,7 +6571,7 @@ export default {
         attack: 8,
         defense: 6,
         magic: 3,
-        difficulty: 2
+        difficulty: 1
       },
       image: {
         full: "XinZhao.png",
@@ -6623,7 +6623,7 @@ export default {
         attack: 8,
         defense: 4,
         magic: 4,
-        difficulty: 10
+        difficulty: 3
       },
       image: {
         full: "Yasuo.png",
@@ -6635,7 +6635,7 @@ export default {
         h: 48
       },
       tags: ["Fighter", "Assassin"],
-      partype: "Wind",
+      partype: "None",
       stats: {
         hp: 517.76,
         hpperlevel: 82,
@@ -6675,7 +6675,7 @@ export default {
         attack: 6,
         defense: 6,
         magic: 4,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Yorick.png",
@@ -6727,7 +6727,7 @@ export default {
         attack: 3,
         defense: 7,
         magic: 7,
-        difficulty: 8
+        difficulty: 1
       },
       image: {
         full: "Zac.png",
@@ -6779,7 +6779,7 @@ export default {
         attack: 9,
         defense: 2,
         magic: 1,
-        difficulty: 7
+        difficulty: 3
       },
       image: {
         full: "Zed.png",
@@ -6790,7 +6790,7 @@ export default {
         w: 48,
         h: 48
       },
-      tags: ["Assassin", "Fighter"],
+      tags: ["Assassin"],
       partype: "Energy",
       stats: {
         hp: 579.4,
@@ -6831,7 +6831,7 @@ export default {
         attack: 2,
         defense: 4,
         magic: 9,
-        difficulty: 4
+        difficulty: 2
       },
       image: {
         full: "Ziggs.png",
@@ -6883,7 +6883,7 @@ export default {
         attack: 2,
         defense: 5,
         magic: 8,
-        difficulty: 6
+        difficulty: 2
       },
       image: {
         full: "Zilean.png",
@@ -6935,7 +6935,7 @@ export default {
         attack: 4,
         defense: 3,
         magic: 8,
-        difficulty: 7
+        difficulty: 2
       },
       image: {
         full: "Zyra.png",
