@@ -367,6 +367,58 @@ export default {
         attackspeedperlevel: 1.36
       }
     },
+    Aphelios: {
+      version: "6.24.1",
+      id: "Aphelios",
+      key: "523",
+      name: "Aphelios",
+      title: "EL ARMA DE LOS FIELES",
+      img:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+      blurb:
+        "Aphelios emerge de entre las sombras de la noche con armas en mano y asesina a los enemigos de su fe en un silencio inquietante, hablando a tiro limpio únicamente a través de la certitud de su puntería. Un veneno que le impide hablar se encarga de impulsarlo mientras su hermana Alune lo guía desde un lejano templo, enviándole todo un arsenal de armas de piedra lunar. Mientras la luna brille, Aphelios nunca estará solo.",
+      info: {
+        "attack": 6,
+        "defense": 2,
+        "magic": 1,
+        "difficulty": 3
+      },
+      image: {
+        full: "Aphelios.png",
+        sprite: "champion0.png",
+        group: "champion",
+        x: 336,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Marksman"],
+      partype: "MP",
+      stats: {
+        hp: 530,
+        hpperlevel: 88,
+        mp: 348,
+        mpperlevel: 42,
+        movespeed: 325,
+        armor: 28,
+        armorperlevel: 3,
+        spellblock: 30,
+        spellblockperlevel: 0.5,
+        attackrange: 550,
+        hpregen: 3.25,
+        hpregenperlevel: 0.55,
+        mpregen: 6.5,
+        mpregenperlevel: 0.4,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 57,
+        attackdamageperlevel: 3,
+        attackspeedperlevel: 2.1,
+        attackspeed: 0.64
+      }
+    },
     Ashe: {
       version: "6.24.1",
       id: "Ashe",
@@ -1875,6 +1927,58 @@ export default {
         attackspeedperlevel: 2.6
       }
     },
+    Gwen: {
+      version: "6.24.1",
+      id: "Gwen",
+      key: "887",
+      name: "Gwen",
+      title: "LA COSTURERA CONSAGRADA",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt7a3d6c549708c048/607496eb1f74bb759da6a062/RiotX_ChampionList_gwen.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg",
+      blurb:
+        "Gwen, una muñeca a la que la magia confirió vida, va armada con los mismos utensilios que en su día la confeccionaron. Lleva consigo la fuerza del amor de su creadora en cada paso que da y es consciente de la maravilla de vivir. La Niebla consagrada obedece a su voluntad, una magia ancestral y protectora que bendice las tijeras, las agujas y el hilo de coser de Gwen. Hay muchas cosas que son nuevas para Gwen, pero ella preserva el júbilo por luchar por lo bueno que sobrevive en un mundo roto.",
+      info: {
+        attack: 7,
+        defense: 4,
+        magic: 5,
+        difficulty: 2
+      },
+      image: {
+        full: "Gwen.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 336,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Fighter","Assassin"],
+      partype: "MP",
+      stats: {
+        hp: 550,
+        hpperlevel: 90,
+        mp: 330,
+        mpperlevel: 40,
+        movespeed: 340,
+        armor: 39,
+        armorperlevel: 4,
+        spellblock: 32,
+        spellblockperlevel: 1.25,
+        attackrange: 150,
+        hpregen: 7,
+        hpregenperlevel: 0.55,
+        mpregen: 7.5,
+        mpregenperlevel: 0.7,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 63,
+        attackdamageperlevel: 3,
+        attackspeedperlevel: 2.25,
+        attackspeed: 0.69
+      }
+    },
     Hecarim: {
       version: "6.24.1",
       id: "Hecarim",
@@ -2730,7 +2834,7 @@ export default {
         full: "Kayle.png",
         sprite: "champion1.png",
         group: "champion",
-        x: 0,
+        x: 240,
         y: 96,
         w: 48,
         h: 48
@@ -2738,26 +2842,78 @@ export default {
       tags: ["Fighter", "Support"],
       partype: "MP",
       stats: {
-        hp: 574.24,
-        hpperlevel: 93,
-        mp: 322.2,
-        mpperlevel: 40,
+        hp: 600,
+        hpperlevel: 85,
+        mp: 330,
+        mpperlevel: 50,
         movespeed: 335,
-        armor: 26.88,
-        armorperlevel: 3.5,
+        armor: 26,
+        armorperlevel: 3,
         spellblock: 30,
-        spellblockperlevel: 0,
-        attackrange: 125,
-        hpregen: 8.26,
-        hpregenperlevel: 0.75,
-        mpregen: 6,
+        spellblockperlevel: 0.5,
+        attackrange: 175,
+        hpregen: 5,
+        hpregenperlevel: 0.5,
+        mpregen: 8,
         mpregenperlevel: 0.8,
         crit: 0,
         critperlevel: 0,
-        attackdamage: 51,
-        attackdamageperlevel: 2.8,
-        attackspeedoffset: -0.02,
-        attackspeedperlevel: 2.2
+        attackdamage: 50,
+        attackdamageperlevel: 2.5,
+        attackspeedperlevel: 1.5,
+        attackspeed: 0.625
+      }
+    },
+    Kayn: {
+      version: "6.24.1",
+      id: "Kayn",
+      key: "141",
+      name: "Kayn",
+      title: "LA GUADAÑA DE LAS SOMBRAS",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt64edf2d3729b57c1/5db05fd656458c6b3fc17519/RiotX_ChampionList_kayn.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kayn_0.jpg",
+      blurb:
+        "Shieda Kayn, un practicante sin par de la mortífera magia sombría, lucha por alcanzar su verdadero destino: llegar a guiar algún día a la Orden de la Sombra hacia una nueva era de supremacía jonia. Empuña la oscura arma viviente Rhaast, impasible ante la progresiva corrupción de su cuerpo y su mente. Solo hay dos desenlaces posibles: o bien Kayn somete al arma a su voluntad... o bien la malévola hoja lo consume por completo, allanando el camino hacia la destrucción de toda Runaterra.",
+      info: {
+        attack: 10,
+        defense: 6,
+        magic: 1,
+        difficulty: 3
+      },
+      image: {
+        full: "Kayn.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 288,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Fighter","Assassin"],
+      partype: "MP",
+      stats: {
+        hp: 585,
+        hpperlevel: 85,
+        mp: 410,
+        mpperlevel: 50,
+        movespeed: 340,
+        armor: 38,
+        armorperlevel: 3.3,
+        spellblock: 32,
+        spellblockperlevel: 1.25,
+        attackrange: 175,
+        hpregen: 8,
+        hpregenperlevel: 0.75,
+        mpregen: 11.5,
+        mpregenperlevel: 0.95,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 68,
+        attackdamageperlevel: 3.3,
+        attackspeedperlevel: 2.7,
+        attackspeed: 0.669
       }
     },
     Kennen: {
@@ -3174,6 +3330,58 @@ export default {
         attackdamageperlevel: 3,
         attackspeedoffset: 0,
         attackspeedperlevel: 2.9
+      }
+    },
+    Lillia: {
+      version: "6.24.1",
+      id: "Lillia",
+      key: "876",
+      name: "Lillia",
+      title: "EL TÍMIDO FLORECER",
+      img:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lillia_0.jpg",
+      blurb:
+        "Lillia es una tímida cervatilla feérica que merodea a su antojo por los bosques jonios. Se oculta de los mortales, cuya misteriosa naturaleza la cautiva y la intimida a partes iguales, con la esperanza de descubrir por qué los sueños humanos han dejado de alcanzar las ramas del ancestral Árbol Onírico. Ahora viaja por Jonia brandiendo una varita mágica con el objetivo de encontrar los sueños por cumplir de sus habitantes. Solo al conseguirlo podrá Lillia alcanzar todo su potencial y ayudar a los demás a deshacerse de los nudos de sus miedos a fin de dar con el resplandor que guardan en su interior. ¡Yip!",
+      info: {
+        attack: 0,
+        defense: 2,
+        magic: 10,
+        difficulty: 3
+      },
+      image: {
+        full: "Lillia.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 240,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Fighter","Mage"],
+      partype: "MP",
+      stats: {
+        hp: 580,
+        hpperlevel: 90,
+        mp: 410,
+        mpperlevel: 50,
+        movespeed: 330,
+        armor: 20,
+        armorperlevel: 4,
+        spellblock: 32,
+        spellblockperlevel: 0.75,
+        attackrange: 325,
+        hpregen: 9,
+        hpregenperlevel: 0.75,
+        mpregen: 11.5,
+        mpregenperlevel: 0.95,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 61,
+        attackdamageperlevel: 3.1,
+        attackspeedperlevel: 2.7,
+        attackspeed: 0.625
       }
     },
     Lissandra: {
