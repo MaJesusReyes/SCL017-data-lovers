@@ -2604,6 +2604,110 @@ export default {
         attackspeedperlevel: 2.5
       }
     },
+    Jinx: {
+      version: "6.24.1",
+      id: "Jinx",
+      key: "222",
+      name: "Jinx",
+      title: "LA BALA PERDIDA",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta2cba784d9fad4b8/5db05fce89fb926b491ed817/RiotX_ChampionList_jinx.jpg?quality=90&width=250",
+      splash:
+        "http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+      blurb:
+        "Jinx, una criminal perturbada e impulsiva de Zaun, vive para sembrar el caos sin importarle las consecuencias. Provoca las explosiones más ruidosas y cegadoras con su arsenal de armas letales para dejar un rastro de terror y destrucción a su paso. Jinx aborrece el aburrimiento y disfruta dejando su peculiar impronta allá donde va.",
+      info: {
+        attack: 9,
+        defense: 2,
+        magic: 4,
+        difficulty: 2
+      },
+      image: {
+        full: "Jinx.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 192,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Marksman"],
+      partype: "MP",
+      stats: {
+        hp: 517.76,
+        hpperlevel: 82,
+        mp: 245.6,
+        mpperlevel: 45,
+        movespeed: 325,
+        armor: 22.88,
+        armorperlevel: 3.5,
+        spellblock: 30,
+        spellblockperlevel: 0,
+        attackrange: 525,
+        hpregen: 5.84,
+        hpregenperlevel: 0.5,
+        mpregen: 6.68,
+        mpregenperlevel: 1,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 58.46,
+        attackdamageperlevel: 2.41,
+        attackspeedoffset: 0,
+        attackspeedperlevel: 1
+      }
+    },
+    Kaisa: {
+      version: "6.24.1",
+      id: "Kaisa",
+      key: "145",
+      name: "Kaisa",
+      title: "LA HIJA DEL VACÍO",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blte38dc660dfe79204/5db05fce2dc72966da74670c/RiotX_ChampionList_kaisa.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
+      blurb:
+        "Reclamada por el Vacío cuando era solo una niña, Kai'Sa logró sobrevivir por pura tenacidad y fuerza de voluntad. Sus experiencias la han convertido en una cazadora letal y, para algunos, el presagio de un futuro que preferirían no vivir para ver. Ahora que ha entrado en una tensa simbiosis con un caparazón viviente del Vacío, pronto llegará el momento de decidir si perdona a aquellos mortales que la llaman monstruo y se alía con ellos para tratar de derrotar a la oscuridad que se avecina... o simplemente deja que su mente olvide y que el Vacío consuma el mundo que la abandonó.",
+      info: {
+        attack: 8,
+        defense: 5,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Kaisa.png",
+        sprite: "champion1.png",
+        group: "champion",
+        x: 432,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Marksman"],
+      partype: "MP",
+      stats: {
+        hp: 600,
+        hpperlevel: 88,
+        mp: 344.88,
+        mpperlevel: 38,
+        movespeed: 335,
+        armor: 28,
+        armorperlevel: 3,
+        spellblock: 30,
+        spellblockperlevel: 0.5,
+        attackrange: 525,
+        hpregen: 3.5,
+        hpregenperlevel: 0.55,
+        mpregen: 8.2,
+        mpregenperlevel: 0.45,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 59,
+        attackdamageperlevel: 2,
+        attackspeedperlevel: 1.8,
+        attackspeed: 0.644
+      }
+    },
     Karma: {
       version: "6.24.1",
       id: "Karma",
@@ -4164,6 +4268,58 @@ export default {
         attackspeedperlevel: 1
       }
     },
+    Neeko: {
+      version: "6.24.1",
+      id: "Neeko",
+      key: "518",
+      name: "Neeko",
+      title: "LA CAMALEONA CURIOSA",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta62eaac6ad26a4f5/5db05fe7adc8656c7d24e7ea/RiotX_ChampionList_neeko.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_0.jpg",
+      blurb:
+        "Procedente de una tribu vastaya perdida hace mucho tiempo, Neeko puede fundirse entre la multitud adoptando el aspecto de los demás, incluso es capaz de absorber parte de su estado emocional y así distinguir inmediatamente a amigos y enemigos. Nadie puede estar seguro de dónde está o de quién es Neeko en realidad, pero aquellos que pretendan causarle daño no tardarán en ser testigos de su verdadera forma y sentirán liberarse contra ellos todo el poder de su magia espiritual primordial.",
+      info: {
+        attack: 1,
+        defense: 1,
+        magic: 9,
+        difficulty: 2
+      },
+      image: {
+        full: "Neeko.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 48,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Mage","Support"],
+      partype: "MP",
+      stats: {
+        hp: 540,
+        hpperlevel: 90,
+        mp: 450,
+        mpperlevel: 30,
+        movespeed: 340,
+        armor: 21,
+        armorperlevel: 4,
+        spellblock: 30,
+        spellblockperlevel: 0.5,
+        attackrange: 550,
+        hpregen: 7.5,
+        hpregenperlevel: 0.75,
+        mpregen: 7,
+        mpregenperlevel: 0.7,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 48,
+        attackdamageperlevel: 2.5,
+        attackspeedperlevel: 3.5,
+        attackspeed: 0.625
+      }
+    },
     Nidalee: {
       version: "6.24.1",
       id: "Nidalee",
@@ -4424,6 +4580,58 @@ export default {
         attackspeedperlevel: 3.5
       }
     },
+    Ornn: {
+      version: "6.24.1",
+      id: "Ornn",
+      key: "516",
+      name: "Ornn",
+      title: "LAS LLAMAS DE LA FORJA",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt639bacdfe8b1fd95/5db05ff1bd24496c390ae4f0/RiotX_ChampionList_ornn.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ornn_0.jpg",
+      blurb:
+        "Ornn es el espíritu de Freljord de la forja y la artesanía. Trabaja en la soledad de una enorme forja esculpida en las cavernas de lava bajo el volcán de Dulcehogar. En ella modela objetos de calidad sin igual y depura menas en burbujeantes calderos de roca fundida. Cuando otras deidades (sobre todo Volibear) merodean por la tierra y se entrometen en asuntos de mortales, Ornn se ofrece para poner a estos seres impetuosos en su sitio, ya sea con su fiel martillo o con la furia de las mismísimas montañas.",
+      info: {
+        attack: 5,
+        defense: 9,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Ornn.png",
+        sprite: "champion2.png",
+        group: "champion",
+        x: 336,
+        y: 96,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tank","Fighter"],
+      partype: "MP",
+      stats: {
+        hp: 590,
+        hpperlevel: 95,
+        mp: 340.6,
+        mpperlevel: 65,
+        movespeed: 335,
+        armor: 33,
+        armorperlevel: 4,
+        spellblock: 32,
+        spellblockperlevel: 1.25,
+        attackrange: 175,
+        hpregen: 9,
+        hpregenperlevel: 0.9,
+        mpregen: 8.01,
+        mpregenperlevel: 0.6,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 69,
+        attackdamageperlevel: 3.5,
+        attackspeedperlevel: 2,
+        attackspeed: 0.625
+      }
+    },
     Pantheon: {
       version: "6.24.1",
       id: "Pantheon",
@@ -4528,6 +4736,110 @@ export default {
         attackspeedperlevel: 2.5
       }
     },
+    Pyke: {
+      version: "6.24.1",
+      id: "Pyke",
+      key: "555",
+      name: "Pyke",
+      title: "EL DESTRIPADOR DE LOS PUERTOS",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt98269cb73e9fce70/5db05ff1347d1c6baa57be3d/RiotX_ChampionList_pyke.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
+      blurb:
+        "A Pyke, un conocido arponero de los muelles del matadero de Aguas Estancadas, le esperaba la muerte en el estómago de una gigantesca criatura marina... y sin embargo, regresó. Desde entonces acecha en los fríos y húmedos callejones y caminos de la que fue su ciudad natal, donde usa sus dones sobrenaturales para dar una rápida y truculenta muerte a quienes se ganan la vida explotando a otros. Cómo son las cosas: una ciudad que se enorgullece de cazar monstruos ahora tiene un monstruo que caza a sus habitantes.",
+      info: {
+        attack: 9,
+        defense: 3,
+        magic: 1,
+        difficulty: 2
+      },
+      image: {
+        full: "Pyke.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 0,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Support","Assassin"],
+      partype: "MP",
+      stats: {
+        hp: 600,
+        hpperlevel: 90,
+        mp: 415,
+        mpperlevel: 50,
+        movespeed: 330,
+        armor: 45,
+        armorperlevel: 3.5,
+        spellblock: 32,
+        spellblockperlevel: 1.25,
+        attackrange: 150,
+        hpregen: 7,
+        hpregenperlevel: 0.5,
+        mpregen: 8,
+        mpregenperlevel: 1,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 62,
+        attackdamageperlevel: 2,
+        attackspeedperlevel: 2.5,
+        attackspeed: 0.667
+      }
+    },
+    Qiyana: {
+      version: "6.24.1",
+      id: "Qiyana",
+      key: "246",
+      name: "Qiyana",
+      title: "LA EMPERATRIZ DE LOS ELEMENTOS",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta6148d8dca105d6b/5db05ff1e9effa6ba5295fa7/RiotX_ChampionList_qiyana.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
+      blurb:
+        "En la ciudad selvática de Ixaocan, Qiyana se dedica a planear sin clemencia alguna su ascenso al trono de los Yun Tal. Es la última en la línea de sucesión pero planta cara a todo aquel que se interpone en su camino con una confianza arrolladora y un dominio de la magia elemental sin precedentes. La tierra obedece sus órdenes, y Qiyana se considera la elementalista más poderosa de la historia de Ixaocan. Es por eso que, en su opinión, no solo merece la ciudad, sino todo el imperio.",
+      info: {
+        attack: 0,
+        defense: 2,
+        magic: 4,
+        difficulty: 3
+      },
+      image: {
+        full: "Qiyana.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 48,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Assassin","Fighter"],
+      partype: "MP",
+      stats: {
+        hp: 590,
+        hpperlevel: 90,
+        mp: 320,
+        mpperlevel: 50,
+        movespeed: 335,
+        armor: 28,
+        armorperlevel: 3.5,
+        spellblock: 32,
+        spellblockperlevel: 1.25,
+        attackrange: 150,
+        hpregen: 9,
+        hpregenperlevel: 0.9,
+        mpregen: 8,
+        mpregenperlevel: 0.7,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 66,
+        attackdamageperlevel: 3.1,
+        attackspeedperlevel: 2.1,
+        attackspeed: 0.625
+      }
+    },
     Quinn: {
       version: "6.24.1",
       id: "Quinn",
@@ -4578,6 +4890,58 @@ export default {
         attackdamageperlevel: 2.41,
         attackspeedoffset: -0.065,
         attackspeedperlevel: 3.1
+      }
+    },
+    Rakan: {
+      version: "6.24.1",
+      id: "Rakan",
+      key: "497",
+      name: "Rakan",
+      title: "EL ENCANTADOR",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/bltbe844b30961ccb7c/5db05ffb2140ec675d68f4ad/RiotX_ChampionList_rakan.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rakan_0.jpg",
+      blurb:
+        "Con un carácter tan impulsivo como encantador, Rakan es un infame alborotador vastaya y el mejor bailarín de batalla de la historia tribal de Lhotlan. Para los humanos de las montañas de Jonia, su nombre siempre ha sido sinónimo de festivales desenfrenados, fiestas sin control y caos musical. Pocos sospecharían que este artista viajero y dinámico es la pareja de la rebelde Xayah y que también apoya su causa.",
+      info: {
+        attack: 2,
+        defense: 4,
+        magic: 8,
+        difficulty: 2
+      },
+      image: {
+        full: "Rakan.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 144,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Support"],
+      partype: "MP",
+      stats: {
+        hp: 540,
+        hpperlevel: 85,
+        mp: 315,
+        mpperlevel: 50,
+        movespeed: 335,
+        armor: 32,
+        armorperlevel: 3.9,
+        spellblock: 32,
+        spellblockperlevel: 1.25,
+        attackrange: 300,
+        hpregen: 5,
+        hpregenperlevel: 0.5,
+        mpregen: 8.75,
+        mpregenperlevel: 0.5,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 62,
+        attackdamageperlevel: 3.5,
+        attackspeedperlevel: 3,
+        attackspeed: 0.635
       }
     },
     Rammus: {
@@ -4682,6 +5046,58 @@ export default {
         attackdamageperlevel: 3.35,
         attackspeedoffset: 0,
         attackspeedperlevel: 2
+      }
+    },
+    Rell: {
+      version: "6.24.1",
+      id: "Rell",
+      key: "526",
+      name: "Rell",
+      title: "LA DAMA DE HIERRO",
+      img:
+        "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0091d81986fe44c7/5fd43df38593bc52457eecc4/RiotX_ChampionList_Rell_v2.jpg?quality=90&width=250",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Rell_0.jpg",
+      blurb:
+        "Rell, producto de crueles experimentos a manos de la Rosa Negra, es ahora una intrépida arma viviente decidida a hacer caer Noxus. Su infancia estuvo marcada por la desdicha y el horror, pues se vio sometida a espeluznantes tratamientos para perfeccionar y militarizar sus poderes mágicos de control sobre el metal... hasta que protagonizó una violenta fuga en la que se llevó a muchos de sus captores por delante. Ahora, considerada una criminal, Rell se dedica a atacar a todo soldado noxiano con el que se topa en su afán por encontrar a supervivientes de su antigua ''academia'' y defender a los sumisos e inocentes, mientras acaba violentamente con sus antiguos supervisores.",
+      info: {
+        attack: 0,
+        defense: 0,
+        magic: 0,
+        difficulty: 1
+      },
+      image: {
+        full: "Rell.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 288,
+        y: 0,
+        w: 48,
+        h: 48
+      },
+      tags: ["Tank"],
+      partype: "MP",
+      stats: {
+        hp: 540,
+        hpperlevel: 90,
+        mp: 350,
+        mpperlevel: 45,
+        movespeed: 335,
+        armor: 32,
+        armorperlevel: 3,
+        spellblock: 32.1,
+        spellblockperlevel: 1.25,
+        attackrange: 175,
+        hpregen: 7,
+        hpregenperlevel: 0.55,
+        mpregen: 6,
+        mpregenperlevel: 0.35,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 55,
+        attackdamageperlevel: 3,
+        attackspeedperlevel: 2,
+        attackspeed: 0.55
       }
     },
     Renekton: {
@@ -4942,6 +5358,58 @@ export default {
         attackdamageperlevel: 3,
         attackspeedoffset: 0,
         attackspeedperlevel: 2.112
+      }
+    },
+    Samira: {
+      version: "6.24.1",
+      id: "Samira",
+      key: "360",
+      name: "Samira",
+      title: "LA ROSA DEL DESIERTO",
+      img:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
+      splash:
+        "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Samira_0.jpg",
+      blurb:
+        "Samira mira a la muerte a los ojos con una confianza férrea, y va siempre en busca de emociones. Tras la destrucción de su hogar en Shurima cuando era una niña, Samira encontró su verdadera vocación en Noxus, donde se ganó la reputación de ser una temeraria con estilo capaz de llevar a cabo las misiones más peligrosas. Con sus pistolas de pólvora negra y su espada de diseño personalizado, destaca en situaciones de vida o muerte, eliminando a cualquiera que se interponga en su camino con rapidez y clase.",
+      info: {
+        attack: 8,
+        defense: 5,
+        magic: 3,
+        difficulty: 2
+      },
+      image: {
+        full: "Samira.png",
+        sprite: "champion3.png",
+        group: "champion",
+        x: 96,
+        y: 48,
+        w: 48,
+        h: 48
+      },
+      tags: ["Marksman"],
+      partype: "MP",
+      stats: {
+        hp: 530,
+        hpperlevel: 88,
+        mp: 348.88,
+        mpperlevel: 38,
+        movespeed: 335,
+        armor: 26,
+        armorperlevel: 3,
+        spellblock: 30,
+        spellblockperlevel: 0.5,
+        attackrange: 500,
+        hpregen: 3.25,
+        hpregenperlevel: 0.55,
+        mpregen: 8.18,
+        mpregenperlevel: 0.7,
+        crit: 0,
+        critperlevel: 0,
+        attackdamage: 57,
+        attackdamageperlevel: 3,
+        attackspeedperlevel: 3.3,
+        attackspeed: 0.658
       }
     },
     Sejuani: {
